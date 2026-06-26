@@ -41,25 +41,26 @@ Défiscalisation → À propos → Témoignages → Contact → Footer.
 | `showHeroBadge` | `true` | Ligne de réassurance sous le hero |
 | `showFloatingContact` | `false` | Bouton flottant « Prendre rendez-vous » |
 
-## Valeurs à compléter
+## Valeurs renseignées
 
-Avant la mise en ligne, remplacer ces placeholders dans `index.html` :
+| Donnée | Valeur |
+|---|---|
+| Calendly | `https://calendly.com/corentingaillardadvisory/30min` |
+| Email | `corentingaillardadvisory@gmail.com` |
+| ORIAS | `25000141` |
+| LinkedIn | profil de Corentin Gaillard |
 
-| Placeholder | Où | Quoi |
-|---|---|---|
-| `[URL_CALENDLY]` | nav, hero, contact, bouton flottant | Lien de prise de rendez-vous |
-| `[EMAIL]` | section contact (lien `mailto:` + texte) | Adresse email |
-| `[NUMERO_ORIAS]` | footer | Numéro d'immatriculation ORIAS |
-| `[URL_LINKEDIN]` | footer | Profil LinkedIn |
-| `[URL_X]` | footer | Profil X |
+## Reste à compléter
 
-Astuce : `grep -n '\[URL_CALENDLY\]\|\[EMAIL\]\|\[NUMERO_ORIAS\]\|\[URL_LINKEDIN\]\|\[URL_X\]' index.html`
-
-### Logo & photos
-- **Logo** : le wordmark texte « IWC » (nav + footer) est provisoire — remplacer
-  par le vrai logo quand il sera fourni.
+- **Logo** : le wordmark texte « IWC » (nav + footer) est provisoire —
+  remplacer par le vrai logo une fois le fichier ajouté au dépôt.
 - **Photos** : remplacer les placeholders rayés par de vraies images
-  (portrait de Coco, Paris). Conserver le ratio **4/5**.
+  (portrait de Corentin, Paris). Conserver le ratio **4/5**.
+- **X / réseaux** : le lien X a été retiré (non fourni). En rajouter un si besoin.
+
+> Note marque vs personne : « Invest With Coco » reste le nom de marque
+> (logo, titre, footer) ; dans les textes, l'interlocuteur est nommé
+> « Corentin ».
 
 ## Formulaire de contact
 
