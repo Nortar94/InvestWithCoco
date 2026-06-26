@@ -1,0 +1,14 @@
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Dépendances éventuelles (si un build est ajouté plus tard)
+node_modules/
+dist/
+.cache/
