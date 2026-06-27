@@ -25,10 +25,13 @@
     <nav class="nav__inner" aria-label="Navigation principale">
       <!-- Emplacement logo IWC : remplacer ce wordmark par le vrai logo quand il sera fourni -->
       <a href="#top" class="brand" aria-label="Invest With Coco — accueil">
-        <span class="brand__mark">IWC</span>
-        <span class="brand__text">
-          <span class="brand__name">Invest With Coco</span>
-          <span class="brand__tag">Conseil en investissement</span>
+        <img class="brand__logo" src="./assets/logo.png" alt="Invest With Coco" onerror="this.remove(); var f=document.getElementById('brandFallback'); if(f) f.hidden=false;">
+        <span class="brand__lockup" id="brandFallback" hidden>
+          <span class="brand__mark">IWC</span>
+          <span class="brand__text">
+            <span class="brand__name">Invest With Coco</span>
+            <span class="brand__tag">Conseil en investissement</span>
+          </span>
         </span>
       </a>
 

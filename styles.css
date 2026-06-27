@@ -199,6 +199,9 @@ img { max-width: 100%; display: block; }
   text-decoration: none;
   flex-shrink: 0;
 }
+.brand__logo { height: 52px; width: auto; display: block; }
+.brand__lockup { display: flex; align-items: center; gap: 11px; }
+.brand__lockup[hidden] { display: none; }
 .brand__mark {
   display: inline-flex;
   align-items: center;
