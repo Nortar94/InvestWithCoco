@@ -81,7 +81,8 @@
         </div>
 
         <div class="hero__media" data-toggle="showPhotos">
-          <div class="photo photo--hero" role="img" aria-label="Portrait — à compléter">
+          <div class="photo photo--hero" role="img" aria-label="Portrait de Corentin Gaillard">
+            <img class="photo__img" src="./assets/corentin.jpg" alt="Corentin Gaillard, conseiller en investissement" onerror="this.remove()">
             <span class="photo__label">[ photo — portrait / Paris ]<br>à compléter</span>
           </div>
           <div class="hero__float">
@@ -189,7 +190,8 @@
     <!-- ============ À PROPOS ============ -->
     <section id="apropos" class="section section--cream">
       <div class="container split split--about">
-        <div class="photo photo--about" data-toggle="showPhotos" role="img" aria-label="Portrait de Corentin — à compléter">
+        <div class="photo photo--about" data-toggle="showPhotos" role="img" aria-label="Portrait de Corentin Gaillard">
+          <img class="photo__img" src="./assets/corentin.jpg" alt="Corentin Gaillard, conseiller en investissement" onerror="this.remove()">
           <span class="photo__label photo__label--light">[ photo — portrait Corentin ]<br>à compléter</span>
         </div>
         <div>
@@ -309,7 +311,8 @@
     <div class="container">
       <div class="footer__grid">
         <div>
-          <div class="footer__brand">
+          <img class="footer__logo" src="./assets/logo.png" alt="Invest With Coco" onerror="this.remove(); var f=document.getElementById('footerBrandFallback'); if(f) f.hidden=false;">
+          <div class="footer__brand" id="footerBrandFallback" hidden>
             <span class="brand__mark">IWC</span>
             <span class="footer__name">Invest With Coco</span>
           </div>
