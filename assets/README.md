@@ -1,12 +1,14 @@
 # Assets
 
-Déposer ici les fichiers binaires (non éditables par l'assistant) :
-
-| Fichier attendu | Contenu | Notes |
+| Fichier | État | Utilisé pour |
 |---|---|---|
-| `corentin.jpg` | Portrait de Corentin (costume, parc) | ratio ~4/5, utilisé dans le hero et la section « À propos » |
-| `logo.png`     | Logo IWC (monogramme + wordmark) | idéalement en **PNG fond transparent** ; utilisé dans le footer |
+| `corentin.png` | ✅ présent | Portrait de Corentin — section hero (ratio ~4/5) |
+| `logo.png` | ⏳ manquant | Logo IWC — nav + footer (repli wordmark tant qu'absent) |
+| `logo-incomplete.png` | ⚠️ à remplacer | Version reçue incomplète (cercles seuls, sans « IWC » ni wordmark) |
 
-Le code HTML référence déjà ces chemins. Tant qu'un fichier est absent,
-un repli automatique (`onerror`) réaffiche le placeholder d'origine —
-aucun « image cassée » visible.
+Le code référence `./assets/logo.png` dans la nav et le footer. Tant que ce
+fichier n'existe pas, un repli automatique réaffiche le wordmark typographique.
+
+➜ Déposer le **logo complet** (idéalement PNG **fond transparent**) sous le nom
+exact `logo.png` pour qu'il s'affiche. La version `logo-incomplete.png` peut
+être supprimée.

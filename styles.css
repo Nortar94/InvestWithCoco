@@ -471,6 +471,7 @@ img { max-width: 100%; display: block; }
 .split { display: grid; gap: 60px; align-items: center; }
 .split--lt { grid-template-columns: 0.9fr 1.1fr; align-items: start; }
 .split--about { grid-template-columns: 0.85fr 1.15fr; }
+.apropos-single { max-width: 820px; }
 .split--contact { grid-template-columns: 0.95fr 1.05fr; gap: 56px; align-items: start; }
 .split__sticky { position: sticky; top: 110px; }
 
@@ -708,6 +709,7 @@ img { max-width: 100%; display: block; }
 .form-card input:invalid:not(:placeholder-shown),
 .form-card textarea:invalid:not(:placeholder-shown) { border-color: #d98a8a; }
 
+.form-sent[hidden] { display: none; }
 .form-sent {
   display: flex;
   flex-direction: column;
